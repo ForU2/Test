@@ -11,7 +11,7 @@ namespace TestFramework.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "欢迎访问测试网站!";
+            ViewData["Message"] = "欢迎访问，大家好!";
 
             return View();
         }
